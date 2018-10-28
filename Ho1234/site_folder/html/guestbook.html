@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Guestbook - Josh Braun</title>
+     <!--
+     Joshua Braun
+     CIS 241 Web Dev I
+     Summer 2014
+	 date created: 07/25/2014
+     -->
+	 <meta name="Keywords" content="CIW, Web Foundations Associate, Example"/>
+     <meta name="Description" content="For the EdCC CIS 241 course"/>
+     <link rel="stylesheet"  type="text/css" href="../css/myStyle.css"/>
+     <meta charset="utf-8"/>
+     <meta name="author" content="Josh Braun"/>
+     <meta name="robots" content="NOINDEX, NOFOLLOW" />
+	 <style>
+	 input
+	 {
+	 margin-top:0px;
+	 margin-bottom:15px;
+	 }
+	 select
+	 {
+	 margin-top:10px;
+	 margin-bottom:15px;
+	 }
+	 img
+	 {
+	 margin-right:20px;
+	 }
+	 </style>
+</head>
+<body>
+
+
+<!-- HEADER -->
+
+<header>
+<!-- Image Map for page navigation -->
+<div id="headimage"><img src="../images/nano_pedals.jpg" usemap="#pedals_map" alt="Header Image Map"/></div>
+<map name="pedals_map">
+	<area shape="rect" coords="19,85,82,138" href="home.html" alt="Home"/>
+	<area shape="rect" coords="188,89,242,136" href="guestbook.html" alt="Guestbook"/>
+	<area shape="rect" coords="361,92,411,135" href="resume.html" alt="Resume"/>
+	<area shape="rect" coords="530,95,577,141" href="reflections.html" alt="Reflections"/>
+	<area shape="rect" coords="692,101,744,146" href="interests.html" alt="Interests"/>
+	<area shape="rect" coords="860,98,915,140" href="home.html" alt="Home"/>
+</map>
+</header>
+
+
+<!-- NAVIGATION -->
+
+<nav>
+<br/>
+<br/>
+<a href="home.html"><img class="navbutton" src="../images/home_button.jpg" width="110" alt="Home button"/></a><br/>
+<a href="guestbook.html"><img class="navbutton" src="../images/guestbook_button.jpg" width="110" alt="Guestbook button"/></a><br/>
+<a href="resume.html"><img class="navbutton" src="../images/resume_button.jpg" width="110" alt="Resume button"/></a><br/>
+<a href="reflections.html"><img class="navbutton" src="../images/reflections_button.jpg" width="110" alt="Reflections button"/></a><br/>
+<a href="interests.html"><img class="navbutton" src="../images/interests_button.jpg" width="110" alt="Interests button"/></a><br/>
+</nav>
+
+
+
+<!-- ARTICLE -->
+
+<article>
+
+<br/>
+
+<img style="display:block; float:right;" src="../images/geek_chart.jpg" height="550" alt="Humorous Geek Chart"/>
+
+<h1>Guestbook</h1> 
+<p style="margin-bottom:20px;">
+If you'd like, let me know that you stopped by.
+</p>
+
+
+<!-- FORM -->
+<form
+   method="post"
+   action="mailto:j.braun1234@edmail.edcc.edu"
+   enctype="text/plain">
+First Name:<br/>
+<input type="text" name="FirstName" size="62"/><br/>
+Last Name:<br/>
+<input type="text" name="LastName" size="62"/><br/>
+Email Address:<br/>
+<input type="text" name="Email" size="62"/><br/>
+URL:<br/>
+<input type="text" name="Email" value="http://" size="62"/><br/>
+What brought you here? <select name="BroughtHere">
+   <option>A Search Engine (i.e.: Google, Yahoo!).</option>
+   <option>I saw it on your business card.</option>
+   <option>I'm a friend.</option>
+   <option>It was an accident.</option>
+   <option>I don't know, I just ended up here.</option>
+</select><br/>
+Any comments?<br/>
+<textarea name="comments" cols="48" rows="6"></textarea><br/>
+<br/>
+<input type="submit"/>
+<input type="reset"/>
+</form>
+
+<br/>
+
+</article>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+<br/>
+<a href="home.html">Home</a>&nbsp;
+<a href="guestbook.html">Guestbook</a>&nbsp;
+<a href="resume.html">Resum&eacute;</a>&nbsp;
+<a href="reflections.html">Reflections</a>&nbsp;
+<a href="interests.html">Interests</a>
+
+</footer>
+
+
+</body>
+</html>

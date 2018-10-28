@@ -1,0 +1,153 @@
+/* STYLE SHEET FOR (personal web site) */
+
+body 
+{
+margin:0px;
+background-color:#CCCCCC;
+}
+
+
+p 
+{
+margin-top: 10px; 
+margin-bottom: 10px;
+font-size: 80%;
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+
+h1
+{
+font-weight: bold;
+text-decoration: underline;
+color: #333333;
+font-size: 160%;
+margin-bottom: 25px;
+margin-top:0px;
+}
+
+
+h2 
+{
+margin-top: 20px; 
+font-weight: bold; 
+font-size: 120%;
+margin-bottom: 20px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+color: #666666;
+}
+
+
+h3 
+{
+margin-top: 15px; 
+font-weight: bold; 
+font-size: 100%;
+margin-bottom: 15px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+color: #666666;
+}
+
+
+a 
+{
+color: #009933;
+}
+
+img.navbutton
+{
+padding:5px;
+margin-left:auto;
+margin-right:auto;
+display:block;
+float:initial;
+margin-bottom:0px;
+}
+
+img 
+{
+border:0px;
+}
+
+	
+#headimage
+{	
+padding:0px; 
+margin:0px;
+border:0px;
+height:158px;
+width:942px;
+background:#CCCCCC no-repeat left;
+}
+
+
+article 	
+{			
+padding:25px;
+margin-left:165px;
+width:727px;
+background-color:#fff;
+display:block;
+height:100%;
+}
+
+
+nav 
+{
+display:block;
+padding-left: 0px;
+float:left;
+width:165px;
+height:150px;
+}
+
+
+footer 
+{
+width:600px;
+display:block;
+text-align:center;
+font-family:Arial, Helvetica, Geneva, Swiss, sans-serif;
+font-size:80%;
+padding-bottom:20px;
+margin-left:225px;
+background-color:#CCCCCC;
+}
+
+
+/* Table Style */
+table, td, th
+{
+border:1px solid gray;
+border-collapse: collapse; 
+}
+
+td.center
+{
+text-align:center;
+}
+
+td.description
+{
+padding-left:15px;
+width:400px;
+}
+
+table
+{
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+font-size:70%;
+width:80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+td.width
+{
+width:150px;
+text-align:center;
+}
+
+
+/* End Table Style */
